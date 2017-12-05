@@ -1,0 +1,35 @@
+#prolistleft{width: 250px; float: left; border: solid 1px #ccc; }
+	#prolistright{width: 830px; float: left; border: solid 1px #ccc; margin-left: 20px;}
+
+	#box1{  }
+	#box1 h1{ background: #363601; height: 35px;line-height: 35px;font-size: 18px; color: #fff;text-indent: 20px;}
+	#box1 ul{list-style: none;}
+	#box1 ul li{background: #DBDDE6; line-height: 35px; border-bottom:#FFF;border-bottom-style:  solid;border-width:  1px; font-size: 16px;text-indent: 15px;}
+
+	#box2{  }
+	#box2 h1{ background: #363601; height: 35px;line-height: 35px;font-size: 18px; color: #fff;text-indent: 20px;}
+	#box2 ul{list-style: none;}
+	#box2 ul li{list-style: inside; line-height: 27px; border-bottom:#FFF;border-bottom-style:  solid;border-width:  1px; font-size: 16px;text-indent: 15px;}
+
+	#box3{  }
+	#box3 h1{ background: #363601; height: 35px;line-height: 35px;font-size: 18px; color: #fff;text-indent: 20px;}
+	#box3 ul{list-style: none;}
+	#box3 ul li{background: #DBDDE6; line-height: 35px; border-bottom:#FFF;border-bottom-style:  solid;border-width:  1px; font-size: 16px;text-indent: 15px;}
+
+	.topimg{ padding: 10px; border-bottom: dotted 1px #333333;}
+	#prolist ul{list-style: none; width: 830px;}
+	#prolist ul li{display: inline-block;}
+
+
+
+	#newslist{}
+	#newslist ul{list-style: none;text-indent: 10px;}
+	#newslist ul li{line-height: 30px;height: 30px; position: relative;}
+	#newslist ul li a{ color: #666;}
+	#newslist ul li a:hover{ text-decoration: underline;}
+	#newslist ul li span{ position: absolute;right: 10px; }
+
+	#tbwords {width: 500px;min-height: 400px; border: solid 1px #ccc; border-collapse: collapse; margin: 20px auto;}
+	#tbwords  td{ border: solid 1px #ccc; }
+	#tbwords input{border: solid 1px #999999;}
+	.tb1{ width: 100px;text-align: center; }

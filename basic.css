@@ -1,0 +1,66 @@
+	#mainbox
+		{
+			
+			width: 1113px;
+			
+			margin: 0px auto;
+			font-size: 13px;
+		}
+
+		/*basic*/
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding: 0;margin:0;}
+
+		body
+		{
+			background: url(images/bj.gif);
+		}
+		/*logo部分*/
+		#logo{	height: 95px; line-height:95px; position: relative;}
+		.logo1{width: 120px;  position: absolute; bottom:10px; }
+		.logo1 img{float: left; }
+		
+
+		.logofont{position: absolute; bottom:15px; left:122px;}
+
+		.logospan{font-size:20px; width:300px; float: left; font-weight:bold; height:60px; color:#C30 ; font-family:'黑体';}
+
+		.phoneimg{ position: absolute;bottom: 15px; right: 10px; }
+		/*导航栏部分*/
+		#nav{background:url(images/navbj.jpg) repeat-x;line-height: 44px;	}
+		#nav ul{list-style: none;}
+		#nav ul li{display: inline-block; background: url(images/navimg.jpg) no-repeat center right;width: 80px; text-align:center;font-size: 16px;font-weight: bold; line-height: 44px;}
+
+		#nav1{}
+		#nav1 ul{ list-style: none; }
+		#nav1 ul li{ width: 80px; line-height: 30px; border: #960 1px solid; background: #F90;font-size:12px;text-align: center; }
+		a{text-decoration: none;}
+
+		/*轮播图片部分*/
+		#spanbtn{}
+		#spanbtn span{ display: inline-block;width: 25px;height: 25px; border: #FFF 1px solid;text-align: center; color: #fff;}
+		#spanbtn span:hover{color: #F00;}
+		/*中间内容部分*/
+		.topleft{background: url(images/content_sm_bg.jpg); height:336px; width: 325px; float: left;margin-left: 8px;margin-right: 8px;border: solid 1px #D7D7D7;}
+		#midtop{ background: url(images/content_bg.jpg) ;height: 360px; }
+		.topleft span{ font-size: 16px;color: #C60;font-weight: bold;font-family:"微软雅黑"; line-height: 55px; }
+		.titlecontent{margin-left: 10px; background: url(images/contentimg.jpg)  no-repeat left center; text-indent: 20px;}
+		.titleimg{text-align: center; margin: 15px;}
+		.newslistul{list-style:none;margin-left:20px; }
+		.newslistul li{ font-size: 12px;color: #5D5A5A;line-height: 30px; background: url(images/ico.jpg) no-repeat center left; text-indent: 20px; border-bottom:#5D5A5A 1px dotted;}
+		.linkul{list-style: none;margin-left: 20px;text-indent: 20px; }
+		.linkul li{ font-size: 12px;color: #5D5A5A;line-height: 30px;}
+		#demo{background: #FFF;width: 720px;margin:10px auto;overflow: hidden;border: dotted 1px #ccc;}
+		#indemo{float: left;width: 800%;}
+		#demo1{float: left;}
+		#demo2{float: left;}
+
+		/*咨询模块*/
+		#zixunbox{width:304px;height: 100px;position: absolute; top:200px;right: 10px;z-index: 100;}
+
+		/*底部容器部分*/
+		#bbox { font-size:12px; text-align:center; line-height:30px;}
+
+		#setindex{ width:200px; height:30px; position:absolute; right:-20px; top:-30px;}
+		#setindex ul{ list-style:none; margin:0px; padding:0px; }
+		#setindex ul li{ display:inline; }
+		#setindex ul li a{  color:#690; font-weight:bold;font-size:16px;}
